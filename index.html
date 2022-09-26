@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script src="/js/script.js"></script>
+        <title>CPQ Page</title>
+    </head>
+    <body>
+        <header>CMI | Enterprise</header>
+        <div class="container-fluid">
+            <h1>SD-WAN Price Quotation</h1>
+            <div class="col-lg-9">
+                <h5>Solution1: CPE+Gateway</h5>
+                <div id="quotation_gw">
+                    <div id="solution1_gw">
+                        <p><button id="add-gw">Add Gateway</button></p>
+                        <div class="row">
+                            <p><label>Gateway Location</label></p>
+                            <p><label> Gateway Bandwidth</label></p>
+                        </div>
+                        <div class="row">
+                            <div class="solution-content">    
+                                <select name="city" id="gw-city-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="HK">HK</option>
+                                    <option value="MO">MO</option>
+                                    <option value="CN">CN</option>
+                                </select>
+                            </div>
+                            <div class="solution-content">    
+                                <select name="gw-bw" id="gw-bw-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="5m">5 Mbps</option>
+                                    <option value="10m">10 Mbps</option>
+                                    <option value="15m">15 Mbps</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="quotation_cpe_1">
+                    <div id="solution1_cpe">
+                        <p><button id="add-cpe">Add CPE</button></p>
+                        <div class="row">
+                            <p><label>CPE Location</label></p>
+                            <p><label>CPE Bandwidth</label></p>
+                            <p><label>CPE Device</label></p>
+                        </div>
+                        <div class="row">
+                            <div class="solution-content">    
+                                <select name="cpe-city" id="cpe-city-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="HK">HK</option>
+                                    <option value="MO">MO</option>
+                                    <option value="CN">CN</option>
+                                </select>
+                            </div>
+                            <div class="solution-content">    
+                                <select name="cpe-bw" id="cpe-bw-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="5m">5 Mbps</option>
+                                    <option value="10m">10 Mbps</option>
+                                    <option value="15m">15 Mbps</option>
+                                </select>
+                            </div>
+                            <div class="solution-content">    
+                                <select name="cpe-device" id="cpe-device-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="VE100b">VE100b</option>
+                                    <option value="C1111-8PLTE">C1111-8PLTE</option>
+                                    <option value="C1111X-8P">C1111X-8P</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-button">
+                        <button id="quote1">Quote</button>
+                    </div>
+                </div>       
+                <h5>Solution2: CPE only</h5>
+                <div id="quotation_cpe_2">
+                    <div id="solution2_cpe">
+                        <p><button id="add-cpe-only">Add CPE</button></p>
+                        <div class="row">
+                            <p><label>CPE Location</label></p>
+                            <p><label>CPE Bandwidth</label></p>
+                            <p><label>CPE Device</label></p>
+                        </div>
+                        <div class="row">
+                            <div class="solution-content">    
+                                <select name="cpeonly-city" id="cpeonly-city-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="HK">HK</option>
+                                    <option value="MO">MO</option>
+                                    <option value="CN">CN</option>
+                                </select>
+                            </div>
+                            <div class="solution-content">    
+                                <select name="cpeonly-bw" id="cpeonly-bw-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="5m">5 Mbps</option>
+                                    <option value="10m">10 Mbps</option>
+                                    <option value="15m">15 Mbps</option>
+                                </select>
+                            </div>
+                            <div class="solution-content">    
+                                <select name="cpeonly-device" id="cpeonly-device-select">
+                                    <option value="choose-option">--Please choose an option--</option>
+                                    <option value="VE100b">VE100b</option>
+                                    <option value="C1111-8PLTE">C1111-8PLTE</option>
+                                    <option value="C1111X-8P">C1111X-8P</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="quote-button">
+                        <button id="quote2">Quote</button>
+                    </div>
+                </div>
+            </div>
+            <div id="side-bar" class="col-lg-3">
+                <p id="sale-price">Sales Price: </p>
+                <p>Tax: </p>
+            </div>
+        </div>
+        
+    </body>
+</html>

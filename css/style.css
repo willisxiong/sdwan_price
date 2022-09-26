@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+    background-color: #EEF0F4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 50px;
+    background-color: #262829;
+    color: white;
+    padding-left: 20px;
+    padding-top: 13px;
+    font-size: small;
+}
+
+
+h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+    font-weight: bolder;
+}
+
+h5 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+p, label {
+    background-color: white;
+    color: #727272;
+    font-size: 1rem;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.row > p {
+    width: 25%;
+    float: left;
+}
+
+
+select {
+    font-size: 0.9rem;
+}
+
+#quotation_cpe_2 {
+    background-color: white;
+    padding: 20px;
+    margin: 10px;
+}
+
+#quotation_gw {
+    background-color: white;
+    padding: 20px;
+    margin: 10px 10px 0 10px;
+}
+
+#quotation_cpe_1 {
+    background-color: white;
+    padding: 20px;
+    margin: 0px 10px 10px 10px;
+}
+
+
+
+#quote1, #quote2, #add-gw, #add-cpe, #add-cpe-only, #remove {
+    background-color: #0078D0;
+    font-family: Arial;
+    font-size: small;
+    color: white;
+    border: 0;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.quote-button {
+    background-color: white;
+    text-align: center;
+    clear: left;
+}
+
+
+.row {
+    background-color: white;
+}
+
+.solution-content {
+    float: left;
+    width: 25%;
+    background-color: white;
+    margin: 0px;
+    padding-top: 0px;
+}
+
+#side-bar {
+    float: right;
+    background-color: white;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    height: 600px;
+    margin-top: 45px;
+}
+
+#side-bar > p {
+    font-size: large;
+    font-weight: bolder;
+}
+
+#price_content {
+    color:chocolate;
+    background-color: white;
+}
+
+#add-gw, #add-cpe, #add-cpe-only {
+    text-align: center;
+    padding-left: 10px;
+    padding-bottom: 0;
+    margin: 0px 20px 0px 20px;
+}
+
+.col-lg-9, .col-lg-3 {
+    float: left;
+}
+
+#result {
+    background-color: white;
+}
+
+
+
+
+
+
+

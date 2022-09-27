@@ -67,7 +67,7 @@ select {
 
 
 
-#quote1, #quote2, #add-gw, #add-cpe, #add-cpe-only, #remove {
+#quote1, #quote2, #add-gw, #add-cpe, #add-cpe-only {
     background-color: #0078D0;
     font-family: Arial;
     font-size: small;
@@ -76,6 +76,16 @@ select {
     height: 30px;
     width: 100px;
     margin-top: 20px;
+}
+
+.remove-button {
+    background-color: #0078D0;
+    font-family: Arial;
+    font-size: smaller;
+    color: white;
+    border: 0;
+    height: 20px;
+    width: 100px;
 }
 
 .quote-button {

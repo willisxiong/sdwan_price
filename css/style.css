@@ -108,7 +108,6 @@ select {
 }
 
 #side-bar {
-    float: right;
     background-color: white;
     top: 0;
     right: 0;

@@ -27,6 +27,7 @@ h1 {
 h5 {
     padding-left: 20px;
     padding-top: 10px;
+    font-weight: bold;
 }
 
 p, label {
@@ -113,17 +114,7 @@ select {
     right: 0;
     padding: 10px;
     height: 600px;
-    margin-top: 45px;
-}
-
-#side-bar > p {
-    font-size: large;
-    font-weight: bolder;
-}
-
-#price_content {
-    color:chocolate;
-    background-color: white;
+    margin-top: 44px;
 }
 
 #add-gw, #add-cpe, #add-cpe-only {
@@ -139,6 +130,22 @@ select {
 
 #result {
     background-color: white;
+}
+
+#sale-price {
+    font-size: large;
+    font-weight:900;
+}
+
+#sol1-gw-price, #sol1-cpe-price, #sol2-cpe-price {
+    font-size: large;
+    font-weight: bolder;
+    color: black;
+    background-color: white;
+}
+
+#tax {
+    padding-bottom: 50px;
 }
 
 

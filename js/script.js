@@ -6,8 +6,8 @@ document.addEventListener("DOMContentLoaded", () => {
             // Initiate http request and send to server
             var request1 = new XMLHttpRequest();
             var request2 = new XMLHttpRequest();
-            request1.open('GET', '/cpe_price.json', true);
-            request2.open('GET', '/gw_price.json', true);
+            request1.open('GET', './cpe_price.json', true);
+            request2.open('GET', './gw_price.json', true);
             request1.send();
             request2.send();
             

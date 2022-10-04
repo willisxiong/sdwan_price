@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-header {
+header, a {
     height: 50px;
     background-color: #262829;
     color: white;
@@ -15,6 +15,14 @@ header {
     font-size: small;
 }
 
+a {
+    padding-left: 0;
+    text-decoration: none;
+}
+
+a:hover {
+    color: whitesmoke;
+}
 
 h1 {
     text-align: center;

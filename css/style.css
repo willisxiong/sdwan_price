@@ -6,7 +6,7 @@
     padding: 0;
 }
 
-header, a {
+header, header > a {
     height: 50px;
     background-color: #262829;
     color: white;
@@ -76,7 +76,7 @@ select {
 
 
 
-#quote1, #quote2, #add-gw, #add-cpe, #add-cpe-only {
+#quote1, #quote2, #add-gw, #add-cpe, #add-cpe-only, #re-quote {
     background-color: #0078D0;
     font-family: Arial;
     font-size: small;

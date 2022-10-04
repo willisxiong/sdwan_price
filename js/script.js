@@ -59,7 +59,10 @@ document.addEventListener("DOMContentLoaded", () => {
                     var cpe_bw_value = cpe_bws[i].value;
                     var cpe_device_value = cpe_devices[i].value;
                     var cpe_price = data[cpe_city_value][cpe_bw_value][cpe_device_value];
-                    cpe_price_all.push(cpe_price);
+                    if (cpe_price < 0) {
+                        alert(`Invalid bandwidth or device in CPE selection${i+1} in Solution1`);
+                    } else {cpe_price_all.push(cpe_price);};
+                    
                 };
                 
                 for (var j=0; j<cpe_cities.length; j++) {
@@ -146,7 +149,10 @@ document.addEventListener("DOMContentLoaded", () => {
                 var cpeonly_bw_value = cpeonly_bws[i].value;
                 var cpeonly_device_value = cpeonly_devices[i].value;
                 var cpeonly_price = data[cpeonly_city_value][cpeonly_bw_value][cpeonly_device_value];
-                cpeonly_price_all.push(cpeonly_price);
+                if (cpeonly_price < 0) {
+                    alert(`Invalid bandwidth or device in CPE selection${i+1} in Solution2`);
+                } else {cpeonly_price_all.push(cpeonly_price);};
+                
             };
             
             for (var j=0; j<cpeonly_cities.length; j++) {

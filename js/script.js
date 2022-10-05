@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", () => {
             request2.onload = () => {
                 const data = JSON.parse(request2.responseText);  
                 const gw_price_all = [];
-                var gw_price_total = 0;              
+                var gw_price_total = 0.00;              
 
                 for (var i=0; i<gw_cities.length; i++) {
                     var gw_city_value = gw_cities[i].value;

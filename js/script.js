@@ -132,7 +132,7 @@ document.addEventListener("DOMContentLoaded", () => {
     //count price for solution2
     document.querySelector("#quote2").addEventListener("click", () => {
         var request = new XMLHttpRequest();
-        request.open("GET", "/cpe_price.json", true);
+        request.open("GET", "./cpe_price.json", true);
         request.send();
 
         var cpeonly_cities = document.querySelectorAll("#cpeonly-city-select");

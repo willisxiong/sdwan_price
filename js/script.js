@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
 
                 for (var j=0; j<gw_price_all.length; j++) {
-                    gw_price_total = gw_price_total + gw_price_all[j];
+                    gw_price_total = (gw_price_total*100 + gw_price_all[j]*100)/100;
                 };
 
                 console.log(gw_price_all);
@@ -66,7 +66,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 };
                 
                 for (var j=0; j<cpe_cities.length; j++) {
-                    cpe_price_total += cpe_price_all[j];
+                    cpe_price_total = (cpe_price_total*100 + cpe_price_all[j]*100)/100;
                 };
 
                 console.log(cpe_price_all);
@@ -156,7 +156,7 @@ document.addEventListener("DOMContentLoaded", () => {
             };
             
             for (var j=0; j<cpeonly_cities.length; j++) {
-                cpeonly_price_total += cpeonly_price_all[j];
+                cpeonly_price_total = (cpeonly_price_total*100 + cpeonly_price_all[j]*100)/100;
             };
 
             console.log(cpeonly_price_all);
